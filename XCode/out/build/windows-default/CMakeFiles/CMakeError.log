@@ -1,0 +1,260 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_aa640 && [1/2] Building C object CMakeFiles\cmTC_aa640.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_aa640.exe
+FAILED: cmTC_aa640.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_aa640.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_aa640.dir\CMakeCCompilerABI.c.obj  /out:cmTC_aa640.exe /implib:cmTC_aa640.lib /pdb:cmTC_aa640.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_aa640.dir/manifest.res CMakeFiles\cmTC_aa640.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_b7664 && [1/2] Building C object CMakeFiles\cmTC_b7664.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_b7664.exe
+FAILED: cmTC_b7664.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_b7664.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b7664.dir\testCCompiler.c.obj  /out:cmTC_b7664.exe /implib:cmTC_b7664.lib /pdb:cmTC_b7664.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_b7664.dir/manifest.res CMakeFiles\cmTC_b7664.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_e847d && [1/2] Building C object CMakeFiles\cmTC_e847d.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_e847d.exe
+FAILED: cmTC_e847d.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_e847d.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_e847d.dir\CMakeCCompilerABI.c.obj  /out:cmTC_e847d.exe /implib:cmTC_e847d.lib /pdb:cmTC_e847d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_e847d.dir/manifest.res CMakeFiles\cmTC_e847d.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_45303 && [1/2] Building C object CMakeFiles\cmTC_45303.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_45303.exe
+FAILED: cmTC_45303.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_45303.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_45303.dir\testCCompiler.c.obj  /out:cmTC_45303.exe /implib:cmTC_45303.lib /pdb:cmTC_45303.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_45303.dir/manifest.res CMakeFiles\cmTC_45303.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_5ed42 && [1/2] Building C object CMakeFiles\cmTC_5ed42.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_5ed42.exe
+FAILED: cmTC_5ed42.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_5ed42.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_5ed42.dir\CMakeCCompilerABI.c.obj  /out:cmTC_5ed42.exe /implib:cmTC_5ed42.lib /pdb:cmTC_5ed42.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_5ed42.dir/manifest.res CMakeFiles\cmTC_5ed42.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_6a8c8 && [1/2] Building C object CMakeFiles\cmTC_6a8c8.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_6a8c8.exe
+FAILED: cmTC_6a8c8.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_6a8c8.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_6a8c8.dir\testCCompiler.c.obj  /out:cmTC_6a8c8.exe /implib:cmTC_6a8c8.lib /pdb:cmTC_6a8c8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_6a8c8.dir/manifest.res CMakeFiles\cmTC_6a8c8.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/MachineLearning/Toolbox/VS2019/run/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30139 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30139.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: 无法打开文件“kernel32.lib”
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_d7145 && [1/2] Building C object CMakeFiles\cmTC_d7145.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_d7145.exe
+FAILED: cmTC_d7145.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_d7145.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d7145.dir\CMakeCCompilerABI.c.obj  /out:cmTC_d7145.exe /implib:cmTC_d7145.lib /pdb:cmTC_d7145.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_d7145.dir/manifest.res CMakeFiles\cmTC_d7145.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/MachineLearning/XCode/XCode/out/build/windows-default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:\MACHINELEARNING\TOOLBOX\VS2019\RUN\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe cmTC_733f0 && [1/2] Building C object CMakeFiles\cmTC_733f0.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_733f0.exe
+FAILED: cmTC_733f0.exe 
+cmd.exe /C "cd . && D:\MachineLearning\Toolbox\VS2019\run\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_733f0.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- D:\MachineLearning\Toolbox\VS2019\run\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_733f0.dir\testCCompiler.c.obj  /out:cmTC_733f0.exe /implib:cmTC_733f0.lib /pdb:cmTC_733f0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_733f0.dir/manifest.res CMakeFiles\cmTC_733f0.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+

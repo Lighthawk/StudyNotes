@@ -1,0 +1,8 @@
+# ninja log v5
+1	575	6654860507825251	CMakeFiles/XCode.dir/XCode.cpp.obj	86665c09929cfd93
+635	1031	6655092847932740	XCode.exe	8c73d656d616c666
+1	627	6655050206626467	CMakeFiles/XCode.dir/datatype.cpp.obj	7eb65175b7c50ad2
+1	635	6655092845150187	CMakeFiles/XCode.dir/02_constexpr.cpp.obj	362bbcbfd4e78f91
+0	944	6655087038569885	CMakeFiles/XCode.dir/01_datatype.cpp.obj	fb36c36ab2d26595
+0	1314	6664485885224033	CMakeFiles/XCode.dir/03_class_base.cpp.obj	4d7acdff5d3423cf
+1315	2647	6664485896652561	XCode.exe	f4e8623a705090ad

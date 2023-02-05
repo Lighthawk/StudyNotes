@@ -11,7 +11,7 @@ public:
     IntNum(const IntNum& n) : xptr(new int(*n.xptr)) {
         cout << "copy constructor" << endl;
     }
-    IntNum(IntNum&& n) : xptr(n.xptr) {		// && ÊÇÓÒÖµÒýÓÃ£¨¼´½«ÏûÍöµÄÖµ£©£¬º¯Êý·µ»ØÁÙÊ±±äÁ¿ÊÇÓÒÖµ
+    IntNum(IntNum&& n) : xptr(n.xptr) {		// && æ˜¯å³å€¼å¼•ç”¨ï¼ˆå³å°†æ¶ˆäº¡çš„å€¼ï¼‰ï¼Œå‡½æ•°è¿”å›žä¸´æ—¶å˜é‡æ˜¯å³å€¼
         n.xptr = nullptr;
         cout << "move constructor" << endl;
     }
@@ -35,7 +35,7 @@ int main() {
     return 0;
 }
 
-// ÔËÐÐ½á¹û£º
+// è¿è¡Œç»“æžœï¼š
 // constructor
 // move constructor
 // destructing

@@ -1,8 +1,8 @@
 #include "demo_common.h"
 using namespace std;
 
-// constexpr ±àÒëÆÚ¼äÈ·¶¨Öµ£¬Ö»ÔÊĞíÒ»¸ö return
-// constexpr ĞŞÊÎµÄº¯Êı£¬ÆäËùÓĞ²ÎÊı¶¼ÊÇ constexpr Ê±£¬Ò»¶¨·µ»Ø constexpr
+// constexpr ç¼–è¯‘æœŸé—´ç¡®å®šå€¼ï¼Œåªå…è®¸ä¸€ä¸ª return
+// constexpr ä¿®é¥°çš„å‡½æ•°ï¼Œå…¶æ‰€æœ‰å‚æ•°éƒ½æ˜¯ constexpr æ—¶ï¼Œä¸€å®šè¿”å› constexpr
 
 constexpr int getint() { return 10; }
 
@@ -11,7 +11,7 @@ int main()
 	const int a = 12;
 	const int b = 23;
 
-	// ±àÒë²»¹ı£¬±¾µØº¯Êı¶¨Òå·Ç·¨¡£¡£¡£
+	// ç¼–è¯‘ä¸è¿‡ï¼Œæœ¬åœ°å‡½æ•°å®šä¹‰éæ³•ã€‚ã€‚ã€‚
 	//constexpr int getint() { return 10; }
 
 	constexpr int ret = getint();

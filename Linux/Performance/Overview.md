@@ -3,13 +3,10 @@
 ## Linux Performance Tools
 ![Linux Performance Tools](.assets\v2-22400eb0948e28e986ee3a6d9fa5b588_r.jpg)
 
-##
-
 
 ## ebpf Tools
 ![Linux Performance Tools](.assets\v2-9d70261114d9a29d55d152e265299108_720w.webp)
 
-##
 
 - 大佬的链接 [Link](https://www.brendangregg.com/linuxperf.html)：
 - 静态代码检测工具或平台：cppcheck、PC-lint、Coverity、QAC C/C++、Clang-Tidy、Clang Static Analyzer、SonarQube+sonar-cxx（推荐）、Facebook的inferprofiling工具：gnu prof、Oprofile、google gperftools（推荐）、perf、intel VTune、AMD CodeAnalyst

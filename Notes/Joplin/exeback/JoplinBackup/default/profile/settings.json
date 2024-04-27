@@ -1,0 +1,47 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "zh_CN",
+	"api.token": "747835ac709d685b65e41f4ef9fbcc452efb38a10dd8c6a6e4def52901280b9457b9fa7af8fe6ce1b8a9caca0db17923567cdc7927c191339b289e5a77fe856b",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.languages": [
+		"en-US"
+	],
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"sync.interval": 0,
+	"sync.target": 2,
+	"sync.2.path": "C:\\Users\\Administrator\\Documents\\devs\\study\\notes",
+	"themeAutoDetect": true,
+	"style.editor.monospaceFontFamily": "Cascadia Code",
+	"theme": 6,
+	"style.editor.fontFamily": "微软雅黑",
+	"preferredLightTheme": 6,
+	"preferredDarkTheme": 6,
+	"editor.codeView": true,
+	"notes.sortOrder.buttonsVisible": true,
+	"notes.sortOrder.field": "order",
+	"folders.sortOrder.field": "last_note_user_updated_time"
+}

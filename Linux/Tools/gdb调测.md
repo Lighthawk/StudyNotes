@@ -203,3 +203,79 @@ gdb filename
 
 ```
 
+## 7、调试脚本
+
+#### （1）.gdbinit
+
+> 通常放在 ~/.gdbinit 中，主要用于 gdb 高级配置，显示配置等，
+>
+> 内容摘自：[gdbinit 使用(转)_如何生效gdbinit-CSDN博客](https://blog.csdn.net/lord_is_layuping/article/details/89402963)
+
+```shell
+# 保存历史命令
+set history filename ./.gdb_history
+set history save on
+ 
+ 
+# 记录执行gdb的过程
+set logging file ./.log.txt
+set logging on
+ 
+ 
+# 退出时不显示提示信息
+#set confirm off
+ 
+ 
+# 打印数组的索引下标
+set print array-indexes on
+ 
+ 
+# 每行打印一个结构体成员
+set print pretty on
+ 
+ 
+# 退出并保留断点
+define qbp
+save breakpoints ./.gdb_bp
+quit
+end
+document qbp
+Exit and save the breakpoint
+end
+ 
+ 
+# 保留历史工作断点
+define downbp
+save breakpoints ./.gdb_bp
+end
+document downbp
+Save the historical work breakpoint
+end
+ 
+ 
+# 加载历史工作断点
+define loadbp
+source ./.gdb_bp
+end
+document loadbp
+Load the historical work breakpoint
+end
+```
+
+
+
+#### （2） cmd.gdb
+
+> 启动 gdb 调试时，可以通过命令灌入已有的 gdb 脚本，一键到达期望的 debug 点，对于反复调测复杂工程比较有用
+>
+> 内容摘自：[用gdb脚本进行自动化调试_gdb本来就支持自定义脚本辅助调试-CSDN博客](https://blog.csdn.net/nirendao/article/details/105910753)
+
+```shell
+gdb --batch --command=cmd.gdb --args test.exe <add necessary parameters here>
+# 1. “–batch” 的含义是，该gdb命令将在命令行中运行，运行结束后，光标仍停留在命令行；
+# 假设不加 “–batch”, 则命令执行结束后，会停留再gdb的互动界面 (假设脚本最后没有 quit 语句。因以上脚本最后有quit，所以即使不在batch模式，也# 依然会退出gdb到达命令行。)
+# 2. “–command” 指定gdb脚本
+# 3. 若已在 “–args” 中指定了运行参数，则不要在gdb脚本的 run 命令后再指定运行参数了；否则，run命令中的运行参数会覆盖 “–args” 中的运行参数。
+
+```
+
